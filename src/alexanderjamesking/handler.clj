@@ -3,21 +3,25 @@
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
             [alexanderjamesking.home :as home]
-            
-            [alexanderjamesking.blog.clojure-from-java-xml-to-json :as clj-from-java])
+            [alexanderjamesking.blog :as blog]
+            [alexanderjamesking.cv :as cv]
+            [alexanderjamesking.blog.01-sns-sqs-node :as article-sns]
+            [alexanderjamesking.blog.02-core-async-http :as article-async-http]
+            [alexanderjamesking.blog.03-clojure-from-java-xml-to-json :as article-java-xml]
+            )
   (:use [hiccup.core]
         [hiccup.page]))
 
 (defroutes app-routes
-  (GET "/" [] (alexanderjamesking.home/content))
-  (GET "/blog" [] (alexanderjamesking.blog/content))
-  (GET "/cv" [] (alexanderjamesking.cv/content))
+  (GET "/" [] (home/content))
+  (GET "/blog" [] (blog/content))
+  (GET "/cv" [] (cv/content))
   (GET "/posts/clojure-from-java-xml-to-json" []
-       (alexanderjamesking.blog.clojure-from-java-xml-to-json/content))
+       (article-java-xml/content))
   (GET "/posts/clojure-core-async-http-request" []
-       (alexanderjamesking.blog.02-core-async-http/content))
+       (article-async-http/content))
   (GET "/posts/node-js-aws-sdk-js-sns-sqs-example" []
-       (alexanderjamesking.blog.01-sns-sqs-node/content))
+       (article-sns/content))
   (route/not-found "Not Found"))
 
 (def app

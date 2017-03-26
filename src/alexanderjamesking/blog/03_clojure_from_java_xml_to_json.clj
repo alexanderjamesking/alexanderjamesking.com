@@ -1,4 +1,4 @@
-(ns alexanderjamesking.blog.clojure-from-java-xml-to-json
+(ns alexanderjamesking.blog.03-clojure-from-java-xml-to-json
   (:require [alexanderjamesking.html :refer :all])
   (:use [hiccup.core]
         [hiccup.page]
