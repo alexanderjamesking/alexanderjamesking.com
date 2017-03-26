@@ -9,11 +9,16 @@
                    "pure/grids-responsive-min"
                    "pure/menus-min"
                    "main"]]
-     (include-css (str "/css/" css-file ".css")))])
+     (include-css (str "/css/" css-file ".css"))
+     
+     )
+   
+   (include-css "https://fonts.googleapis.com/css?family=Roboto")])
+
 
 (def nav-items
   [{:key :home :href "/" :name "Home"}
-   {:key :blog :href "/" :name "Blog"}
+   {:key :blog :href "/blog" :name "Blog"}
    {:key :cv :href "/cv" :name "CV"}])
 
 (defn main-nav [selected]

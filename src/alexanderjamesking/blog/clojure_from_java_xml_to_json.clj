@@ -11,6 +11,7 @@
     [:div {:class "pure-u-1 pure-u-md-4-5"}
      [:h1 "Alexander James King"]
      [:h2 "Calling Clojure from Java to transform XML to JSON"]
+     [:h4 "June 23, 2014"]
      [:p "Working with XML is painful in Java, there are many options such as DOM, SAX, StAX, JAXB, XSLT but they're all verbose compared to the equivalent code in Clojure where you can make use of Maps and Zippers."]
      [:p "In Clojure my approach is usually as follows:"]
      [:ol

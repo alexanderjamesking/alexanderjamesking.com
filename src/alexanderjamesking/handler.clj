@@ -10,6 +10,7 @@
 
 (defroutes app-routes
   (GET "/" [] (alexanderjamesking.home/content))
+  (GET "/blog" [] (alexanderjamesking.blog/content))
   (GET "/cv" [] (alexanderjamesking.cv/content))
   (GET "/posts/clojure-from-java-xml-to-json" []
        (alexanderjamesking.blog.clojure-from-java-xml-to-json/content))

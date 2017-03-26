@@ -11,6 +11,7 @@
     [:div {:class "pure-u-1 pure-u-md-4-5"}
      [:h1 "Alexander James King"]
      [:h2 "SNS, SQS and Node.js"]
+     [:h4 "November 20, 2013"]
      [:p "A simple Node.js example that publishes a message to a SNS topic, then consumes the message using a SQS queue."]
      [:p (link-to "https://github.com/alexanderjamesking/node-hello-aws-sns-sqs"
                   "Full source code") " (AWS Credentials omitted)"]
