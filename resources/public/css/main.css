@@ -93,3 +93,7 @@ article article {
     margin-right: 10px;
     border: none !important;
 }
+
+.minesweeper {
+    margin: 0 25px 25px 25px;
+}

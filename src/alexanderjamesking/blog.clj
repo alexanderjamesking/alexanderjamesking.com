@@ -9,8 +9,12 @@
    :blog
    [:div {:class "pure-g"}
     [:div {:class "pure-u-1 pure-u-md-4-5"}
-     
+
      [:h1 "Alexander James King"]
+
+     [:article
+      [:a {:href "/posts/clojurescript-minesweeper"} [:h3 "ClojureScript Minesweeper"]]
+      [:p "Implementation of the classic game Minesweeper in ClojureScript"]]
 
      [:article
       [:a {:href "/posts/clojure-from-java-xml-to-json"} [:h3 "Calling Clojure from Java to transform XML to JSON"]]
@@ -25,4 +29,3 @@
       [:p "A simple Node.js example that publishes a message to a SNS topic, then consumes the message using a SQS queue."]]]
 
     (sidebar)]))
-

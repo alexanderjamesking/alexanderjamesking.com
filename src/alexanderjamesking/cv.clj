@@ -10,19 +10,19 @@
    [:div {:class "pure-g"}
     [:div {:class "pure-u-1 pure-u-md-4-5"}
      [:img {:src "/images/alex-on-a-volcano.jpg" :class "pure-img"}]
-     
+
      [:h1 "Alexander James King"]
 
-     [:article 
+     [:article
       [:p "An enthusiastic, hard working, senior software engineer, passionate about delivering clean, well tested code, that is easy for others to understand."]
       [:p "Adept at working in agile environments, pair programming, and communicating technical implications and processes to non-technical colleagues."]
       [:p "A versatile developer, experienced in both client and server side development, with a natural passion for software engineering."]]
 
-     [:article 
+     [:article
       [:h2 "Expertise"]
       [:ul
+       [:li "Clojure, ClojureScript, EMacs, Leiningen"]
        [:li "Scala, SBT, Play, Akka-Http"]
-       [:li "Clojure, Leiningen"]
        [:li "Java, Maven, Groovy, Spring, Cucumber JVM, JAX-RS, Apache Camel, JMS"]
        [:li "Javascript, ES6, React, Redux, Node.js, Mocha, JSON, jQuery, MongoDB"]
        [:li "PHP, Linux, Apache, MySQL"]
@@ -33,11 +33,9 @@
        [:li "MarkLogic, XML, XQuery, XSLT"]
        [:li "Linked Data, SPARQL, RDF"]
        [:li "Git, Subversion"]
-       [:li "XP, Agile, Kanban, Scrum"]
-       ]]
+       [:li "XP, Agile, Kanban, Scrum"]]]
 
-
-     [:article 
+     [:article
       [:h2 "Key Achievements"]
       [:div
        [:p "HMRC - Delievered a new system to prepare tax credit renewals for automation vastly reducing the manual work required to process renewals every year."]
@@ -48,11 +46,17 @@
        [:p "BBC Sport - Mentored software engineers at BBC Sport, encouraging development best practices (BDD, TDD, Clean Code)."]
        [:p "BBC Sport - Assisted in designing a new architecture with a consistent data format across sports, improved the speed of delivery and cost of maintenance."]
        [:p "CTI Digital - Bridged the gap between the front end and service layer teams, improved communication and ensured key deadlines were met."]
-       [:p "England Agency - Designed and built a new CMS used on over 200 sites, dramatically reduced development time of new sites enabling a smaller team to deliver more."] 
+       [:p "England Agency - Designed and built a new CMS used on over 200 sites, dramatically reduced development time of new sites enabling a smaller team to deliver more."]
        ]]
 
      [:h1 "Professional Experience"]
-     
+
+     [:article
+      [:h2 "Credit Suisse (via JUXT)"]
+      [:h5 "Clojure/ClojureScript Developer - 03/2017 to present"]
+      [:p "Development of a Clojure/Clojurescript UI providing a high level view of trading books at Credit Suisse."]
+      [:h5 "Clojure, ClojureScript, Reagent, Re-Frame, Emacs"]]
+
      [:article
       [:h2 "Medidata"]
       [:h5 "Full Stack Senior Software Engineer  - 06/2016 to 03/2017"]
@@ -90,25 +94,25 @@
      [:article
       [:h2 "BBC Sport"]
       [:h5 "Senior Software Engineer - 05/2011 to 09/2013"]
-      [:article 
+      [:article
        ]
 
-      [:article 
+      [:article
        [:h3 "BBC Sport Live"]
        [:p "Led the design and development of a greenfield project that changes the way data is delivered to users of digital content, initially on the Sport website."]
        [:h5 "Java, Apache Camel, REST, Node.js"]]
 
-      [:article 
+      [:article
        [:h3 "Connected Studio - Death of the Robot"]
        [:p "Led the team from concept to delivery of a pilot project, combining the best content from Twitter with editorial content, to enrich and bring more colour to the live event experience on the BBC Sport website."]
        [:h5 "Java, Twitter Streaming API, OpenNLP, Apache Camel, REST, Node.js, MongoDB, Websockets, AWS"]]
 
-      [:article 
+      [:article
        [:h3 "Sports Data"]
        [:p "A major refresh of the architecture behind the BBC Sport website. Replaced custom XML format with open standard to enable hot switching of vendors. Improved delivery chain, reduced latency from minutes to seconds."]
        [:h5 "Java, MarkLogic, XQuery, XSLT, REST, JMS, SportsML"]]
 
-      [:article 
+      [:article
        [:h3 "Linked Data Sport API"]
        [:p "Led development of a new project to power dynamic indexes on the BBC Sport website."]
        [:h5 "Java, Linked Data, SPARQL, RDF, REST"]]
@@ -168,7 +172,7 @@
        [:li "Providing training and technical support to customers"]]]
 
      [:h1 "Education"]
-     
+
      [:article
       [:h3 "Lancaster University - BSc (Hons) Computer Science"]
       [:h5 "2002 - 2005"]]
@@ -180,7 +184,7 @@
      [:article
       [:h3 "Painsley RC High School, Cheadle, Staffordshire"]
       [:h5 "1995 - 2000"]]
-     
+
      ]
 
     (sidebar)]))

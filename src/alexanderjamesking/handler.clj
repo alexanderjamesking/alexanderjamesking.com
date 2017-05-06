@@ -8,6 +8,7 @@
             [alexanderjamesking.blog.01-sns-sqs-node :as article-sns]
             [alexanderjamesking.blog.02-core-async-http :as article-async-http]
             [alexanderjamesking.blog.03-clojure-from-java-xml-to-json :as article-java-xml]
+            [alexanderjamesking.blog.04-minesweeper :as article-minesweeper]
             )
   (:use [hiccup.core]
         [hiccup.page]))
@@ -16,6 +17,8 @@
   (GET "/" [] (home/content))
   (GET "/blog" [] (blog/content))
   (GET "/cv" [] (cv/content))
+  (GET "/posts/clojurescript-minesweeper" []
+       (article-minesweeper/content))
   (GET "/posts/clojure-from-java-xml-to-json" []
        (article-java-xml/content))
   (GET "/posts/clojure-core-async-http-request" []

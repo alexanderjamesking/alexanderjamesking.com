@@ -6,7 +6,7 @@
 
 (defn content []
   (wrapper
-   :blog 
+   :blog
    [:div {:class "pure-g"}
     [:div {:class "pure-u-1 pure-u-md-4-5"}
      [:h1 "Alexander James King"]
@@ -15,7 +15,7 @@
      [:p "A simple Node.js example that publishes a message to a SNS topic, then consumes the message using a SQS queue."]
      [:p (link-to "https://github.com/alexanderjamesking/node-hello-aws-sns-sqs"
                   "Full source code") " (AWS Credentials omitted)"]
-     
+
      [:h3 "AWS Console Steps"]
      [:ol
       [:li "Set up SNS Topic"]
@@ -29,7 +29,6 @@
      [:script {:src "https://gist.github.com/alexanderjamesking/d7d852db0188f64965da.js"}]
 
      ]
-    
-    
-    (sidebar)]))
 
+
+    (sidebar)]))
