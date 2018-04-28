@@ -9,7 +9,7 @@
             [alexanderjamesking.blog.02-core-async-http :as article-async-http]
             [alexanderjamesking.blog.03-clojure-from-java-xml-to-json :as article-java-xml]
             [alexanderjamesking.blog.04-minesweeper :as article-minesweeper]
-            )
+            [alexanderjamesking.blog.05-clojure-spies-stubs-mocks :as article-spy])
   (:use [hiccup.core]
         [hiccup.page]))
 
@@ -25,6 +25,8 @@
        (article-async-http/content))
   (GET "/posts/node-js-aws-sdk-js-sns-sqs-example" []
        (article-sns/content))
+  (GET "/posts/clojure-spies-stubs-mocks" []
+       (article-spy/content))
   (route/not-found "Not Found"))
 
 (def app

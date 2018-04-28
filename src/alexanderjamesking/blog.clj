@@ -13,6 +13,10 @@
      [:h1 "Alexander James King"]
 
      [:article
+      [:a {:href "/posts/clojure-spies-stubs-mocks"} [:h3 "Spy"]]
+      [:p "Clojure and ClojureScript library for stubs, spies and mocks"]]
+
+     [:article
       [:a {:href "/posts/clojurescript-minesweeper"} [:h3 "ClojureScript Minesweeper"]]
       [:p "Implementation of the classic game Minesweeper in ClojureScript"]]
 
