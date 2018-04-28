@@ -10,9 +10,9 @@
                    "pure/menus-min"
                    "main"]]
      (include-css (str "/css/" css-file ".css"))
-     
+
      )
-   
+
    (include-css "https://fonts.googleapis.com/css?family=Roboto")])
 
 
@@ -46,7 +46,7 @@
   (html5
    (head)
    [:body
-    [:div    
+    [:div
      [:div {:class "header"}
       [:div {:class "container"}
        (main-nav selected)]]
@@ -55,4 +55,4 @@
       page-content]
 
      [:div {:class "container footer"}
-      [:p "© 2017 Alexander James King"]]]]))
+      [:p "© 2018 Alexander James King"]]]]))
