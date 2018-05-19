@@ -30,8 +30,9 @@
      [:h2 "Introducing Spy - a Clojure and ClojureScript library for stubs, spies and mocks"]
      [:h4 "April 28, 2018"]
 
+     [:img {:src "/images/spy.svg" :width 400}]
+
      [:p (link-to "https://github.com/alexanderjamesking/spy" "https://github.com/alexanderjamesking/spy")]
-     [:p spy-clojars]
 
      [:p "As of today, there are two main libraries used for testing in Clojure, " clojure-test " and " midje  ". " clojure-test " is extremely simple and it provides a very small API allowing you to write a basic test suite, " midje " on the other hand is slightly more complex but it provides a wealth of features."]
 
@@ -50,6 +51,6 @@
 
      [:script {:src "https://gist.github.com/alexanderjamesking/091d4e190ca35221e6922653e4a139a4.js"}]
 
-     [:p "For more examples on using Spy to test your Clojure code head over to the GitHub project: " spy ". If you find this useful and want to contribute to the library feel free to contact me on GitHub or raise a PR!"]]
+     [:p "For more examples on using Spy to test your Clojure code head over to the GitHub project: " spy ". If you find this useful and want to contribute to the library feel free to contact me on GitHub or raise a PR."]]
 
     (sidebar)]))

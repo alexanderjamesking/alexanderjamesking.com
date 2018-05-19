@@ -9,10 +9,6 @@
 
 (def with-redefs (link-to "https://clojuredocs.org/clojure.core/with-redefs" "with-redefs"))
 
-
-
-
-
      [:h3 "Writing testable code"]
      [:p "There are two types of function, " pure-functions " and " impure-functions "." ]
 
