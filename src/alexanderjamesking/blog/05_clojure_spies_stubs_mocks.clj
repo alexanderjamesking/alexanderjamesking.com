@@ -1,5 +1,7 @@
 (ns alexanderjamesking.blog.05-clojure-spies-stubs-mocks
-  (:require [alexanderjamesking.html :refer :all])
+  (:require [alexanderjamesking.html :refer :all]
+            [alexanderjamesking.codemirror :refer :all]
+            [clojure.string :as string])
   (:use [hiccup.core]
         [hiccup.page]
         [hiccup.element :only [link-to]]))
@@ -43,13 +45,16 @@
      [:h3 "Testing using Spy"]
 
      [:p "Let's start with the following example which looks up an email address given an id and a message then sends a message to that email address."]
-     [:script {:src "https://gist.github.com/alexanderjamesking/030f583368bf72d9e4780f48c417d48a.js"}]
+
+     (include-codemirror)
+
+     (code-sample (slurp "./src/alexanderjamesking/blog/05_spy/01.clj"))
 
      [:p "And let's assume for now that we want to test that send-message is called only when the id passed into the email-beatle function actually matches a beatle in our map."]
 
      [:p "We can use " with-redefs " to replace the send-message function with a spy, the original function is wrapped by the spy so we can test the function was called."]
 
-     [:script {:src "https://gist.github.com/alexanderjamesking/091d4e190ca35221e6922653e4a139a4.js"}]
+     (code-sample (slurp "./src/alexanderjamesking/blog/05_spy/02.clj"))
 
      [:p "For more examples on using Spy to test your Clojure code head over to the GitHub project: " spy ". If you find this useful and want to contribute to the library feel free to contact me on GitHub or raise a PR."]]
 

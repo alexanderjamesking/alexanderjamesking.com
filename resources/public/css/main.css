@@ -97,3 +97,10 @@ article article {
 .minesweeper {
     margin: 0 25px 25px 25px;
 }
+
+
+div.CodeMirror {
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    font-size: 14px;
+    height:auto;
+}
