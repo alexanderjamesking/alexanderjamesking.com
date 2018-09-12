@@ -52,8 +52,20 @@
      [:h1 "Professional Experience"]
 
      [:article
+      [:h2 "Exoscale - 06/2018 to present"]
+      [:h5 "Senior Software Engineer"]
+      [:p "Development of the services behind the Exoscale cloud platform."]
+      [:h5 "Clojure, ClojureScript, Python"]]
+
+     [:article
+      [:h2 "YouView - 02/2018 to 05/2018"]
+      [:h5 "Cloud Systems Engineer - Clojure"]
+      [:p "Development of cloud microservices powering the YouView TV on demand service for Set Top Boxes and Mobile devices."]
+      [:h5 "Clojure, AWS, Docker, PostgreSQL, Terraform"]]
+
+     [:article
       [:h2 "Credit Suisse (via JUXT)"]
-      [:h5 "Clojure/ClojureScript Developer - 03/2017 to present"]
+      [:h5 "Clojure/ClojureScript Developer - 03/2017 to 02/2018"]
       [:p "Development of a Clojure/Clojurescript UI providing a high level view of trading books at Credit Suisse."]
       [:h5 "Clojure, ClojureScript, Reagent, Re-Frame, Emacs"]]
 
