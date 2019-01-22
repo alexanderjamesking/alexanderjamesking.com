@@ -63,4 +63,4 @@ gtag('config', 'UA-45904775-1');"]
       page-content]
 
      [:div {:class "container footer"}
-      [:p "© 2018 Alexander James King"]]]]))
+      [:p "© 2019 Alexander James King"]]]]))

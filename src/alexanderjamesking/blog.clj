@@ -13,6 +13,10 @@
      [:h1 "Alexander James King"]
 
      [:article
+      [:a {:href "https://www.exoscale.com/syslog/continuous-delivery-circleci/"} [:h3 "Building a Continuous Delivery Pipeline using CircleCI and Docker"]]
+      [:p "An article I wrote for " (link-to "https://www.exoscale.com" "Exoscale") " explaining the differences between Continuous Integration, Continuous Delivery and Continuous deployment, with an example showing how to setup a CircleCI pipeline that deploys to Exoscale following a successful build."]]
+
+     [:article
       [:a {:href "/posts/clojure-spies-stubs-mocks"} [:h3 "Spy"]]
       [:p "Clojure and ClojureScript library for stubs, spies and mocks"]]
 
